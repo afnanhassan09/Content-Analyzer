@@ -1,0 +1,1 @@
+{"action":"REGISTER_ERROR","error":"jwt is not defined","level":"error","message":"Registration error","stack":"ReferenceError: jwt is not defined\n    at register (D:\\JOBS\\Content Analyzer\\controllers\\auth.js:32:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-19T16:31:08.316Z"}

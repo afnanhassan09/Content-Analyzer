@@ -1,0 +1,81 @@
+{
+  "startTime": "2025-02-19T17:09:49.806Z",
+  "endTime": "2025-02-19T17:09:56.229Z",
+  "totalUsersAnalyzed": 1,
+  "suspiciousActivities": [
+    {
+      "userId": "[object Object]",
+      "userEmail": "hassanafnan09@gmail.com",
+      "userName": "Afnan Hassan",
+      "suspicionLevel": "low",
+      "reason": "Suspicious pattern detected by AI",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 2,
+          "LOGIN": 3,
+          "CREATE_CONTENT_START": 3,
+          "CONTENT_MODERATION": 3,
+          "CREATE_CONTENT_SUCCESS": 3
+        },
+        "totalActivities": 14,
+        "timespan": {
+          "start": "2025-02-19T16:31:34.973Z",
+          "end": "2025-02-19T16:48:32.832Z"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "highSuspicion": 0,
+    "mediumSuspicion": 0,
+    "lowSuspicion": 1,
+    "clean": 0
+  },
+  "detailedFindings": [
+    {
+      "userId": "[object Object]",
+      "userEmail": "hassanafnan09@gmail.com",
+      "userName": "Afnan Hassan",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 2,
+          "LOGIN": 3,
+          "CREATE_CONTENT_START": 3,
+          "CONTENT_MODERATION": 3,
+          "CREATE_CONTENT_SUCCESS": 3
+        },
+        "totalActivities": 14,
+        "timespan": {
+          "start": "2025-02-19T16:31:34.973Z",
+          "end": "2025-02-19T16:48:32.832Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "Suspicious pattern detected by AI"
+      },
+      "timestamp": "2025-02-19T17:09:56.113Z"
+    }
+  ]
+}
