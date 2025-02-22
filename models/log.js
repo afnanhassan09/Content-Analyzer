@@ -15,11 +15,11 @@ const logSchema = new mongoose.Schema({
     required: true,
   },
   userId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    type: String,
+    required: true,
   },
   metadata: {
-    type: mongoose.Schema.Types.Mixed, // For additional data like errors, content info, etc.
+    type: mongoose.Schema.Types.Mixed, 
   },
   suspicionLevel: {
     type: String,
@@ -41,4 +41,6 @@ const logSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Log", logSchema);
+const Log = mongoose.model("Log", logSchema);
+
+module.exports = Log;

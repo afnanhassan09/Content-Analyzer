@@ -71,6 +71,14 @@ class AILogAnalyzer {
         timestamp: new Date(),
         reportSummary: analysisReport.summary,
       });
+
+      // Return the paths of the generated reports
+      const reportDate = new Date().toISOString().split("T")[0];
+      const reportDir = path.join(process.cwd(), "reports", "ai-analysis");
+      return {
+        jsonReport: path.join(reportDir, `analysis-${reportDate}.json`),
+        htmlReport: path.join(reportDir, `analysis-${reportDate}.html`),
+      };
     } catch (error) {
       logger.error("AI Log analysis error", {
         action: "AI_LOG_ANALYSIS_ERROR",
@@ -78,6 +86,7 @@ class AILogAnalyzer {
         stack: error.stack,
         timestamp: new Date(),
       });
+      throw error; // Re-throw the error to be handled by the caller
     }
   }
 

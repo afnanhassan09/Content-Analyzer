@@ -1,0 +1,475 @@
+{
+  "startTime": "2025-02-22T15:09:28.937Z",
+  "endTime": "2025-02-22T15:09:58.386Z",
+  "totalUsersAnalyzed": 8,
+  "suspiciousActivities": [
+    {
+      "userId": "1234567",
+      "suspicionLevel": "low",
+      "reason": "s for suspicion:\n1",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 4,
+        "timeRanges": [
+          19
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "CONTENT_ANALYSIS": 1,
+          "ANALYZE_CONTENT_ERROR": 3,
+          "MODERATION_RESULT": 1,
+          "INVALID_MODERATION_RESULT": 1
+        },
+        "totalActivities": 6,
+        "timespan": {
+          "start": "2025-02-22T14:48:46.919Z",
+          "end": "2025-02-22T14:50:23.196Z"
+        }
+      }
+    },
+    {
+      "userId": "12345678",
+      "suspicionLevel": "low",
+      "reason": "able time frame",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          19,
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "MODERATION_RESULT": 2,
+          "CONTENT_ANALYSIS": 6
+        },
+        "totalActivities": 8,
+        "timespan": {
+          "start": "2025-02-22T14:52:30.876Z",
+          "end": "2025-02-22T15:02:39.635Z"
+        }
+      }
+    },
+    {
+      "userId": "123456789",
+      "suspicionLevel": "low",
+      "reason": "Suspicious pattern detected by AI",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 1,
+        "timeRanges": [
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "ANALYZE_CONTENT_ERROR": 1,
+          "CONTENT_ANALYSIS": 1
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-22T15:03:58.715Z",
+          "end": "2025-02-22T15:04:33.394Z"
+        }
+      }
+    },
+    {
+      "userId": "67b60711bac6db846e403a46",
+      "suspicionLevel": "low",
+      "reason": "Suspicious pattern detected by AI",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1
+        },
+        "totalActivities": 1,
+        "timespan": {
+          "start": "2025-02-19T16:30:09.171Z",
+          "end": "2025-02-19T16:30:09.171Z"
+        }
+      }
+    },
+    {
+      "userId": "67b60766e82bc45a30ed52eb",
+      "suspicionLevel": "low",
+      "reason": "able",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1,
+          "LOGIN": 2,
+          "CREATE_CONTENT_START": 3,
+          "CONTENT_MODERATION": 3,
+          "CREATE_CONTENT_SUCCESS": 3
+        },
+        "totalActivities": 12,
+        "timespan": {
+          "start": "2025-02-19T16:31:34.973Z",
+          "end": "2025-02-19T16:41:50.786Z"
+        }
+      }
+    },
+    {
+      "userId": "67b60b33d7fa887b9d405daa",
+      "suspicionLevel": "low",
+      "reason": "Suspicious pattern detected by AI",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1,
+          "LOGIN": 1
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-19T16:47:47.185Z",
+          "end": "2025-02-19T16:48:32.832Z"
+        }
+      }
+    },
+    {
+      "userId": "undefined",
+      "suspicionLevel": "low",
+      "reason": "Suspicious pattern detected by AI",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 2,
+        "timeRanges": [
+          19,
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "MODERATION_RESULT": 8,
+          "INVALID_MODERATION_RESULT": 2,
+          "CONTENT_ANALYSIS": 3
+        },
+        "totalActivities": 13,
+        "timespan": {
+          "start": "2025-02-22T14:53:30.154Z",
+          "end": "2025-02-22T15:00:54.991Z"
+        }
+      }
+    },
+    {
+      "userId": "unknown",
+      "suspicionLevel": "low",
+      "reason": "for this is the lack of activity in areas typically associated with suspicious behavior, such as failed logins or creation of harmful content",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 2,
+        "timeRanges": [
+          19
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "ANALYZE_CONTENT_ERROR": 2
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-22T14:53:30.158Z",
+          "end": "2025-02-22T14:53:52.891Z"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "highSuspicion": 0,
+    "mediumSuspicion": 0,
+    "lowSuspicion": 8,
+    "clean": 0
+  },
+  "detailedFindings": [
+    {
+      "userId": "1234567",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 4,
+        "timeRanges": [
+          19
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "CONTENT_ANALYSIS": 1,
+          "ANALYZE_CONTENT_ERROR": 3,
+          "MODERATION_RESULT": 1,
+          "INVALID_MODERATION_RESULT": 1
+        },
+        "totalActivities": 6,
+        "timespan": {
+          "start": "2025-02-22T14:48:46.919Z",
+          "end": "2025-02-22T14:50:23.196Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "s for suspicion:\n1"
+      },
+      "timestamp": "2025-02-22T15:09:35.415Z"
+    },
+    {
+      "userId": "12345678",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          19,
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "MODERATION_RESULT": 2,
+          "CONTENT_ANALYSIS": 6
+        },
+        "totalActivities": 8,
+        "timespan": {
+          "start": "2025-02-22T14:52:30.876Z",
+          "end": "2025-02-22T15:02:39.635Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "able time frame"
+      },
+      "timestamp": "2025-02-22T15:09:38.473Z"
+    },
+    {
+      "userId": "123456789",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 1,
+        "timeRanges": [
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "ANALYZE_CONTENT_ERROR": 1,
+          "CONTENT_ANALYSIS": 1
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-22T15:03:58.715Z",
+          "end": "2025-02-22T15:04:33.394Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "Suspicious pattern detected by AI"
+      },
+      "timestamp": "2025-02-22T15:09:41.510Z"
+    },
+    {
+      "userId": "67b60711bac6db846e403a46",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1
+        },
+        "totalActivities": 1,
+        "timespan": {
+          "start": "2025-02-19T16:30:09.171Z",
+          "end": "2025-02-19T16:30:09.171Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "Suspicious pattern detected by AI"
+      },
+      "timestamp": "2025-02-22T15:09:44.920Z"
+    },
+    {
+      "userId": "67b60766e82bc45a30ed52eb",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1,
+          "LOGIN": 2,
+          "CREATE_CONTENT_START": 3,
+          "CONTENT_MODERATION": 3,
+          "CREATE_CONTENT_SUCCESS": 3
+        },
+        "totalActivities": 12,
+        "timespan": {
+          "start": "2025-02-19T16:31:34.973Z",
+          "end": "2025-02-19T16:41:50.786Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "able"
+      },
+      "timestamp": "2025-02-22T15:09:48.766Z"
+    },
+    {
+      "userId": "67b60b33d7fa887b9d405daa",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 0,
+        "timeRanges": [
+          21
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "REGISTER": 1,
+          "LOGIN": 1
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-19T16:47:47.185Z",
+          "end": "2025-02-19T16:48:32.832Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "Suspicious pattern detected by AI"
+      },
+      "timestamp": "2025-02-22T15:09:51.063Z"
+    },
+    {
+      "userId": "undefined",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 2,
+        "timeRanges": [
+          19,
+          20
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "MODERATION_RESULT": 8,
+          "INVALID_MODERATION_RESULT": 2,
+          "CONTENT_ANALYSIS": 3
+        },
+        "totalActivities": 13,
+        "timespan": {
+          "start": "2025-02-22T14:53:30.154Z",
+          "end": "2025-02-22T15:00:54.991Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "Suspicious pattern detected by AI"
+      },
+      "timestamp": "2025-02-22T15:09:54.718Z"
+    },
+    {
+      "userId": "unknown",
+      "activitySummary": {
+        "loginAttempts": 0,
+        "failedLogins": 0,
+        "contentCreated": 0,
+        "harmfulContent": 0,
+        "warningContent": 0,
+        "errors": 2,
+        "timeRanges": [
+          19
+        ],
+        "uniqueIPs": [],
+        "actions": {
+          "ANALYZE_CONTENT_ERROR": 2
+        },
+        "totalActivities": 2,
+        "timespan": {
+          "start": "2025-02-22T14:53:30.158Z",
+          "end": "2025-02-22T14:53:52.891Z"
+        }
+      },
+      "analysis": {
+        "suspicious": true,
+        "suspicionLevel": "low",
+        "reason": "for this is the lack of activity in areas typically associated with suspicious behavior, such as failed logins or creation of harmful content"
+      },
+      "timestamp": "2025-02-22T15:09:58.268Z"
+    }
+  ]
+}

@@ -3,7 +3,6 @@ const path = require("path");
 const mongoose = require("mongoose");
 const Log = require("../models/log");
 
-// Custom MongoDB transport
 class MongoTransport extends winston.Transport {
   constructor(opts) {
     super(opts);
@@ -20,7 +19,7 @@ class MongoTransport extends winston.Transport {
         level: info.level,
         message: info.message,
         action: info.action,
-        userId: info.userId,
+        userId: String(info.userId),
         metadata: {
           ...info,
           level: undefined,
@@ -41,13 +40,11 @@ class MongoTransport extends winston.Transport {
   }
 }
 
-// Define log format
 const logFormat = winston.format.combine(
   winston.format.timestamp(),
   winston.format.json()
 );
 
-// Create the logger
 const logger = winston.createLogger({
   format: logFormat,
   transports: [
