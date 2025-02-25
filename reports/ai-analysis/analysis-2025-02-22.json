@@ -1,12 +1,12 @@
 {
-  "startTime": "2025-02-22T15:09:28.937Z",
-  "endTime": "2025-02-22T15:09:58.386Z",
+  "startTime": "2025-02-22T17:00:45.308Z",
+  "endTime": "2025-02-22T17:01:35.946Z",
   "totalUsersAnalyzed": 8,
   "suspiciousActivities": [
     {
       "userId": "1234567",
       "suspicionLevel": "low",
-      "reason": "s for suspicion:\n1",
+      "reason": "s are:\n\n1",
       "activitySummary": {
         "loginAttempts": 0,
         "failedLogins": 0,
@@ -34,7 +34,7 @@
     {
       "userId": "12345678",
       "suspicionLevel": "low",
-      "reason": "able time frame",
+      "reason": "Suspicious pattern detected by AI",
       "activitySummary": {
         "loginAttempts": 0,
         "failedLogins": 0,
@@ -183,19 +183,20 @@
         "actions": {
           "MODERATION_RESULT": 8,
           "INVALID_MODERATION_RESULT": 2,
-          "CONTENT_ANALYSIS": 3
+          "CONTENT_ANALYSIS": 3,
+          "ANALYSIS_REPORT_GENERATED": 1
         },
-        "totalActivities": 13,
+        "totalActivities": 14,
         "timespan": {
           "start": "2025-02-22T14:53:30.154Z",
-          "end": "2025-02-22T15:00:54.991Z"
+          "end": "2025-02-22T15:09:58.463Z"
         }
       }
     },
     {
       "userId": "unknown",
       "suspicionLevel": "low",
-      "reason": "for this is the lack of activity in areas typically associated with suspicious behavior, such as failed logins or creation of harmful content",
+      "reason": "Suspicious pattern detected by AI",
       "activitySummary": {
         "loginAttempts": 0,
         "failedLogins": 0,
@@ -253,9 +254,9 @@
       "analysis": {
         "suspicious": true,
         "suspicionLevel": "low",
-        "reason": "s for suspicion:\n1"
+        "reason": "s are:\n\n1"
       },
-      "timestamp": "2025-02-22T15:09:35.415Z"
+      "timestamp": "2025-02-22T17:01:04.185Z"
     },
     {
       "userId": "12345678",
@@ -284,9 +285,9 @@
       "analysis": {
         "suspicious": true,
         "suspicionLevel": "low",
-        "reason": "able time frame"
+        "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:38.473Z"
+      "timestamp": "2025-02-22T17:01:08.079Z"
     },
     {
       "userId": "123456789",
@@ -316,7 +317,7 @@
         "suspicionLevel": "low",
         "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:41.510Z"
+      "timestamp": "2025-02-22T17:01:15.131Z"
     },
     {
       "userId": "67b60711bac6db846e403a46",
@@ -345,7 +346,7 @@
         "suspicionLevel": "low",
         "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:44.920Z"
+      "timestamp": "2025-02-22T17:01:18.918Z"
     },
     {
       "userId": "67b60766e82bc45a30ed52eb",
@@ -378,7 +379,7 @@
         "suspicionLevel": "low",
         "reason": "able"
       },
-      "timestamp": "2025-02-22T15:09:48.766Z"
+      "timestamp": "2025-02-22T17:01:22.807Z"
     },
     {
       "userId": "67b60b33d7fa887b9d405daa",
@@ -408,7 +409,7 @@
         "suspicionLevel": "low",
         "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:51.063Z"
+      "timestamp": "2025-02-22T17:01:27.707Z"
     },
     {
       "userId": "undefined",
@@ -427,12 +428,13 @@
         "actions": {
           "MODERATION_RESULT": 8,
           "INVALID_MODERATION_RESULT": 2,
-          "CONTENT_ANALYSIS": 3
+          "CONTENT_ANALYSIS": 3,
+          "ANALYSIS_REPORT_GENERATED": 1
         },
-        "totalActivities": 13,
+        "totalActivities": 14,
         "timespan": {
           "start": "2025-02-22T14:53:30.154Z",
-          "end": "2025-02-22T15:00:54.991Z"
+          "end": "2025-02-22T15:09:58.463Z"
         }
       },
       "analysis": {
@@ -440,7 +442,7 @@
         "suspicionLevel": "low",
         "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:54.718Z"
+      "timestamp": "2025-02-22T17:01:32.892Z"
     },
     {
       "userId": "unknown",
@@ -467,9 +469,9 @@
       "analysis": {
         "suspicious": true,
         "suspicionLevel": "low",
-        "reason": "for this is the lack of activity in areas typically associated with suspicious behavior, such as failed logins or creation of harmful content"
+        "reason": "Suspicious pattern detected by AI"
       },
-      "timestamp": "2025-02-22T15:09:58.268Z"
+      "timestamp": "2025-02-22T17:01:35.747Z"
     }
   ]
 }

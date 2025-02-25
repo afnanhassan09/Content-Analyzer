@@ -6,4 +6,6 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 router.post("/analyze", upload.single("file"), contentController.analyze);
 
+router.post("/log-user-activity", contentController.logUserActivity);
+
 module.exports = router;
